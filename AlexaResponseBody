@@ -1,0 +1,9 @@
+{
+  "response": {
+    "outputSpeech": {
+      "text": "Here are Your Tasks in Planner: @{body('Join')} ",
+      "type": "PlainText"
+    }
+  },
+  "version": "1.0"
+}
