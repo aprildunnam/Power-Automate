@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "response": {
+            "type": "object",
+            "properties": {
+                "outputSpeech": {
+                    "type": "object",
+                    "properties": {
+                        "text": {
+                            "type": "string"
+                        },
+                        "type": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "version": {
+            "type": "string"
+        }
+    }
+}
