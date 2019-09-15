@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:
+DTSTART:@{outputs('formatStartTime')}
+DTEND:@{outputs('formatEndTime')}
+SUMMARY:@{triggerBody()?['Title']}
+DESCRIPTION: @{triggerBody()?['Description']}
+LOCATION:Online
+END:VEVENT
+END:VCALENDAR
